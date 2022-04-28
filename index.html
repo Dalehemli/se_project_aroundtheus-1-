@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Around The U.S</title>
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <img
+        class="header__logo"
+        src="./images/headerlogo.png"
+        alt="Around the U.S"
+      />
+    </header>
+
+    <main class="content">
+      <section class="profile">
+        <img
+          class="profile__image"
+          src="./images/profilepic.png"
+          alt="profile header image"
+        />
+        <div class="profile__container">
+          <div class="profile__info">
+            <h1 class="profile__name">Dale Hemli</h1>
+            <button
+              class="profile__edit-button"
+              aria-label="edit"
+              type="button"
+            ></button>
+            <p class="profile__subtitle">Software Developer</p>
+          </div>
+        </div>
+        <button
+          class="profile__add-button"
+          aria-label="add"
+          type="button"
+        ></button>
+      </section>
+
+      <section class="photo-grid">
+        <div class="photo-grid__card">
+          <img
+            class="photo-grid__image"
+            src="./images/yosemite.png"
+            alt="photo of Yosemite"
+          />
+          <div class="photo-grid__text">
+            <h2 class="photo-grid__title">Yosemite Valley</h2>
+            <button
+              class="photo-grid__button"
+              aria-label="like"
+              type="button"
+            ></button>
+          </div>
+        </div>
+
+        <div class="photo-grid__card">
+          <img
+            class="photo-grid__image"
+            src="./images/lakelouise.png"
+            alt="Photo of Lake Louise"
+          />
+          <div class="photo-grid__text">
+            <h2 class="photo-grid__title">Lake Louise</h2>
+            <button
+              class="photo-grid__button"
+              aria-label="like"
+              type="button"
+            ></button>
+          </div>
+        </div>
+
+        <div class="photo-grid__card">
+          <img
+            class="photo-grid__image"
+            src="./images/baldmountains.png"
+            alt="Photo of Bald Mountains"
+          />
+          <div class="photo-grid__text">
+            <h2 class="photo-grid__title">Bald Mountains</h2>
+            <button
+              class="photo-grid__button"
+              aria-label="like"
+              type="button"
+            ></button>
+          </div>
+        </div>
+
+        <div class="photo-grid__card">
+          <img
+            class="photo-grid__image"
+            src="./images/Latemar.png"
+            alt="Photo of Latemar"
+          />
+          <div class="photo-grid__text">
+            <h2 class="photo-grid__title">Latemar</h2>
+            <button
+              class="photo-grid__button"
+              aria-label="like"
+              type="button"
+            ></button>
+          </div>
+        </div>
+
+        <div class="photo-grid__card">
+          <img
+            class="photo-grid__image"
+            src="./images/VanoiseNP.png"
+            alt="Photo of Vanoise National Park"
+          />
+          <div class="photo-grid__text">
+            <h2 class="photo-grid__title">Vanoise National Park</h2>
+            <button
+              class="photo-grid__button"
+              aria-label="like"
+              type="button"
+            ></button>
+          </div>
+        </div>
+
+        <div class="photo-grid__card">
+          <img
+            class="photo-grid__image"
+            src="./images/LagoDiBraies.png"
+            alt="Photo of Lago Di Braies"
+          />
+          <div class="photo-grid__text">
+            <h2 class="photo-grid__title">Lago di Braies</h2>
+            <button
+              class="photo-grid__button"
+              aria-label="like"
+              type="button"
+            ></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">© 2022 Around The U.S. Dale Hemli</p>
+    </footer>
+    <div class="popup">
+      <div class="popup__content">
+        <button class="popup__close" type="button" aria-label="Close"></button>
+        <h3 class="popup__title">Edit profile</h3>
+        <form class="popup__content-form" name="edit-profile">
+          <input
+            type="text"
+            name="name"
+            class="popup__input popup__input_type_name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="text"
+            name="title"
+            class="popup__input popup__input_type_description"
+            placeholder="Your Title"
+            required
+          />
+          <input type="submit" class="popup__save-button" aria-label="Save">
+            
+        </input>
+        </form>
+      </div>
+    </div>
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>
