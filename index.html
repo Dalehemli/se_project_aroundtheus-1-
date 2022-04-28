@@ -32,7 +32,7 @@
               aria-label="edit"
               type="button"
             ></button>
-            <p class="profile__subtitle">Software Developer</p>
+            <p class="profile__description">Software Developer</p>
           </div>
         </div>
         <button
@@ -147,24 +147,22 @@
       <div class="popup__content">
         <button class="popup__close" type="button" aria-label="Close"></button>
         <h3 class="popup__title">Edit profile</h3>
-        <form class="popup__content-form" name="edit-profile">
+        <form class="popup__form" name="edit-profile">
           <input
             type="text"
-            name="name"
+            name="new"
             class="popup__input popup__input_type_name"
             placeholder="Your Name"
             required
           />
           <input
             type="text"
-            name="title"
+            name="description"
             class="popup__input popup__input_type_description"
             placeholder="Your Title"
             required
           />
-          <input type="submit" class="popup__save-button" aria-label="Save">
-            
-        </input>
+          <input type="submit" class="popup__save-button" aria-label="Save" />
         </form>
       </div>
     </div>

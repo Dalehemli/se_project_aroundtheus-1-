@@ -1,28 +1,28 @@
 const modalWindow = document.querySelector(".popup");
-const editForm = document.querySelector(".popup__content");
+const editForm = document.querySelector(".popup__form");
 const editButton = document.querySelector(".profile__edit-button");
 const closeButton = document.querySelector(".popup__close");
-const profileTitle = document.querySelector(".profile__name");
-const profileDescription = document.querySelector(".profile__subtitle");
+const profileName = document.querySelector(".profile__name");
+const profileDescription = document.querySelector(".profile__description");
 
-const titleInputField = editForm.querySelector(".popup__input_type_name");
+const nameInputField = editForm.querySelector(".popup__input_type_name");
 const descriptionInputField = editForm.querySelector(
   ".popup__input_type_description"
 );
 
 function toggleModalVisibility() {
-  if (!modalWindow.classList.contains("popup__is_opened")) {
-    titleInputField.value = profileTitle.textContent;
+  if (!modalWindow.classList.contains("popup_opened")) {
+    nameInputField.value = profileName.textContent;
     descriptionInputField.value = profileDescription.textContent;
   }
 
-  modalWindow.classList.toggle("popup__is_opened");
+  modalWindow.classList.toggle("popup_opened");
 }
 
 function formSubmitHandler(evt) {
   evt.preventDefault();
 
-  profileTitle.textContent = titleInputField.value;
+  profileName.textContent = nameInputField.value;
   profileDescription.textContent = descriptionInputField.value;
 
   toggleModalVisibility();
