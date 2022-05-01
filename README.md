@@ -2,15 +2,17 @@
 
 ### Overview
 
-* Figma
-* Images
+- Figma
+- Images
 
 **Figma**
 
-* [Link to the project in Figma](https://www.figma.com/file/SurN1jaeEQIhuZEDMhmWWf/Sprint-4-Around-The-U.S.-desktop-mobile?node-id=0%3A1)
+- [Link to the project in Figma](https://www.figma.com/file/SurN1jaeEQIhuZEDMhmWWf/Sprint-4-Around-The-U.S.-desktop-mobile?node-id=0%3A1)
 
-**Images**
+This is the fourth project for the Practicum Software Engineer Course. This project shows a user profile and hub with the capabilities to open and close a popup window for editing the profile. It was created using flexbox, grid, overlays, responsive design, BEM methodology, and JavaScript.
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Have fun with JavaScript!
+Technology:
+HTML5
+CSS
+JavaScript
+Github
