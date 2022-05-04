@@ -98,29 +98,45 @@
   .profile {
     margin-left: 100px;
     margin-right: 100px;
-    display: flex;
     flex-direction: column;
     align-items: center;
+    /* max-width: 282px; */
   }
 
   .profile__add-button {
     margin-left: 20px;
     height: 50px;
     width: 282px;
+    margin: 36px auto 0;
+  }
+
+  .profile__description {
+    text-align: center;
+    font-size: 14px;
+    line-height: 16.94px;
+    margin-left: 30px;
+  }
+
+  .profile__name {
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .profile__image {
+    margin-right: 0;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 630px) {
   .profile {
-    /* display: flex;
-    flex-direction: column; */
     max-width: 282px;
     margin: 42px auto;
-    align-items: center;
   }
 
   .profile__add-button {
-    /* width: 282px; */
+    width: 282px;
     height: 50px;
     margin: 36px auto 0;
   }
