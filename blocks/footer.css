@@ -23,7 +23,9 @@
 }
 
 @media screen and (max-width: 320px) {
-  .footer {
-    margin: 0;
+  .footer__copyright {
+    text-align: left;
   }
 }
+
+/* Hi, I tried to get the footer to lock to the div above, but I couldn't figure it out. I asked my tutor, but I'm not quite sure they understood what I was asking */
