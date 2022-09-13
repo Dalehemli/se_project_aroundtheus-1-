@@ -18,7 +18,7 @@
   border-top-right-radius: 10px;
 }
 
-.card__text {
+.card__info {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,7 +40,7 @@
   padding: 0px;
 }
 
-.card__button {
+.card__like-button {
   width: 21px;
   height: 19px;
   margin: 0;
@@ -53,10 +53,26 @@
   cursor: pointer;
 }
 
-.card__button:hover {
+.card__like-button:hover {
   opacity: 0.5;
 }
 
-.card__button:active {
+.card__like-button:active {
   background: #000;
+}
+
+.card__delete-button {
+  width: 21px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  border: hidden;
+  background: url(../images/trash.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 0.1s ease-out;
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 15px;
 }
